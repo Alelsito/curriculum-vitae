@@ -1,0 +1,468 @@
+@font-face {
+    font-family: Fredoka;
+    src: url('../assets/fuentes/Fredoka/Fredoka-VariableFont_wdth\,wght.ttf');
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url(../assets/fuentes/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url(../assets/fuentes/Roboto/Roboto-Light.ttf);
+}
+
+/* Body */
+
+.bodyMargin {
+    padding-top: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+    /* background-color: rgb(243, 242, 239); */
+}
+
+.ornament {
+    position: absolute;
+    top: 0;
+    right: 22%;
+    width: 105px;
+    height: 220px;
+    background-color: rgb(197, 30, 183);
+  }
+
+/* Header */
+
+.containerHeader {
+    height: auto;
+    width: 100%;
+    margin-bottom: 60px;
+    float: left;
+    /* background-color: rgb(226, 199, 230); */
+}
+
+.perfilImg {
+    width: 165px;
+    height: 165px;
+    border-radius: 150%;
+    margin: 10px 50px 10px 10px;
+    float: left;
+}
+
+.name {
+    float: left;
+    margin-left: 30px;
+}
+
+h1 {
+    font-family: "Fredoka";
+    font-size: 47px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 0;
+    letter-spacing: 5px;
+}
+
+h2 {
+    font-family: "Fredoka";
+    font-size: 27px;
+    font-weight: 500;
+    text-align: left;
+    color: rgb(197, 30, 183);
+    margin-top: 10px;
+    letter-spacing: 3px;
+}
+
+h3 {
+    font-family: "RobotoRegular";
+    font-size: 16px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+span {
+    font-family: Arial;
+    font-size: 15px;
+    text-align: left;
+    color: rgb(87, 86, 86);
+    letter-spacing: 0.2px;
+}
+
+/* First Section */
+
+.firstSection {
+    width: 50%;
+    height: auto;
+    margin-bottom: 30px;
+    float: left;
+    clear: both;
+}
+
+/* Section Icons */
+
+.sectionIcons1 {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+}
+
+.iconSettings1 {
+    width: 50%;
+    box-sizing: border-box;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.iconSettings1 i {
+    color: rgb(0, 0, 0);
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* firstContainer */
+
+.dividerLine1 {
+    width: 1px;
+    height: 122px;
+    background-color: gray;
+    box-sizing: border-box;
+    float: left;
+}
+
+.circle1 {
+    margin-top: 5px;
+    margin-left: -4.5px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(104, 99, 99);
+    border-radius: 150%;
+}
+
+.circle2 {
+    margin-top: 11px;
+    margin-left: -4.5px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(104, 99, 99);
+    border-radius: 150%;
+}
+
+.contact {
+    margin-bottom: 100px;
+    width: 70%;
+    height: auto;
+    margin-left: 4.4%;
+}
+
+/* Section Icons 2 */
+
+.sectionIcons2 {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+}
+
+.iconSettings2 {
+    width: 50%;
+    margin-left: -10px; /* CHECAR ESTO */
+    box-sizing: border-box;
+    font-size: 20px;
+    color: rgb(197, 30, 183);
+    font-weight: bold;
+    display: inline-block;
+}
+
+.iconSettings2 i {
+    color: rgb(197, 30, 183);
+
+}
+
+.dividerLine3 {
+    width: 1px;
+    height: 203px;
+    background-color: gray;
+    box-sizing: border-box;
+    float: left;
+}
+
+.circle3 {
+    margin-top: 20px;
+    margin-left: -4.5px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(104, 99, 99);
+    border-radius: 150%;
+}
+
+.proyects {
+    margin-bottom: 50px;
+    width: 70%;
+    height: auto;
+    margin-left: 4.4%;
+}
+
+#proyects {
+    font-family: "Fredoka";
+    font-size: 19px;
+    text-align: left;
+    margin-left: 8px;
+    color: rgb(197, 30, 183);
+}
+
+
+.dividerLine4 {
+    width: 1px;
+    height: 420px;
+    background-color: gray;
+    box-sizing: border-box;
+    float: left;
+}
+
+.circle4 {
+    margin-top: 20px;
+    margin-left: -4.5px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(104, 99, 99);
+    border-radius: 150%;
+}
+
+.circle5 {
+    margin-top: 117px;
+    margin-left: -4.5px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(104, 99, 99);
+    border-radius: 150%;
+}
+
+.circle6 {
+    margin-top: 117px;
+    margin-left: -4.5px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(104, 99, 99);
+    border-radius: 150%;
+}
+
+.circle7 {
+    margin-top: 97px;
+    margin-left: -4.5px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(104, 99, 99);
+    border-radius: 150%;
+}
+
+.achievements {
+    margin: 0;
+    width: 70%;
+    height: auto;
+    margin-left: 4.4%;
+}
+
+#achievements {
+    font-family: "Fredoka";
+    font-size: 19px;
+    text-align: left;
+    margin-left: 5px;
+    color: rgb(197, 30, 183);
+}
+
+/* Second Section */
+
+.secondSection {
+    width: 48%;
+    height: auto;
+    margin-bottom: 30px;
+    margin-left: 2%;
+    float: left;
+}
+
+.dividerLine5 {
+    width: 1px;
+    height: 190px;
+    background-color: gray;
+    box-sizing: border-box;
+    float: left;
+}
+
+.intro {
+    margin-bottom: 30px;
+    width: 85%;
+    height: auto;
+    margin-left: 4.4%;
+}
+
+.dividerLine6 {
+    width: 1px;
+    height: 260px;
+    background-color: gray;
+    box-sizing: border-box;
+    float: left;
+}
+
+.circle8 {
+    margin-top: 20px;
+    margin-left: -4.5px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(104, 99, 99);
+    border-radius: 150%;
+}
+
+.circle9 {
+    margin-top: 80px;
+    margin-left: -4.5px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(104, 99, 99);
+    border-radius: 150%;
+}
+
+.circle10 {
+    margin-top: 97px;
+    margin-left: -4.5px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(104, 99, 99);
+    border-radius: 150%;
+}
+
+.education {
+    margin-bottom: 35px;
+    width: 85%;
+    height: auto;
+    margin-left: 4.4%;
+}
+
+#education {
+    font-family: "Fredoka";
+    font-size: 19px;
+    text-align: left;
+    margin-left: 1px;
+    color: rgb(197, 30, 183);
+}
+
+.dividerLine7 {
+    width: 1px;
+    height: 210px;
+    background-color: gray;
+    box-sizing: border-box;
+    float: left;
+}
+
+.circle11 {
+    margin-top: 20px;
+    margin-left: -4.5px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(104, 99, 99);
+    border-radius: 150%;
+}
+
+.circle12 {
+    margin-top: 25px;
+    margin-left: -4.5px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(104, 99, 99);
+    border-radius: 150%;
+}
+
+.circle13 {
+    margin-top: 25px;
+    margin-left: -4.5px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(104, 99, 99);
+    border-radius: 150%;
+}
+
+.circle14 {
+    margin-top: 25px;
+    margin-left: -4.5px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(104, 99, 99);
+    border-radius: 150%;
+}
+
+.circle15 {
+    margin-top: 25px;
+    margin-left: -4.5px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(104, 99, 99);
+    border-radius: 150%;
+}
+
+.circle16 {
+    margin-top: 25px;
+    margin-left: -4.5px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(104, 99, 99);
+    border-radius: 150%;
+}
+
+.aptitudes {
+    margin-bottom: 50px;
+    width: 70%;
+    height: auto;
+    margin-left: 4.4%;
+}
+
+#aptitudes {
+    font-family: "Fredoka";
+    font-size: 19px;
+    text-align: left;
+    margin-left: 8px;
+    color: rgb(197, 30, 183);
+}
+
+.dividerLine8 {
+    width: 1px;
+    height: 70px;
+    background-color: gray;
+    box-sizing: border-box;
+    float: left;
+}
+
+.circle17 {
+    margin-top: 20px;
+    margin-left: -4.5px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(104, 99, 99);
+    border-radius: 150%;
+}
+
+.circle18 {
+    margin-top: 25px;
+    margin-left: -4.5px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(104, 99, 99);
+    border-radius: 150%;
+}
+
+.languages {
+    margin-bottom: 50px;
+    width: 70%;
+    height: auto;
+    margin-left: 4.4%;
+}
+
+#languages {
+    font-family: "Fredoka";
+    font-size: 19px;
+    text-align: left;
+    margin-left: 2px;
+    color: rgb(197, 30, 183);
+}
