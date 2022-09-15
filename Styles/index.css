@@ -17,15 +17,14 @@
 
 .bodyMargin {
     padding-top: 2%;
-    padding-left: 20%;
+    padding-left: 25%;
     padding-right: 20%;
-    /* background-color: rgb(243, 242, 239); */
 }
 
 .ornament {
     position: absolute;
     top: 0;
-    right: 22%;
+    right: 25%;
     width: 105px;
     height: 220px;
     background-color: rgb(197, 30, 183);
@@ -35,10 +34,9 @@
 
 .containerHeader {
     height: auto;
-    width: 100%;
+    width: 85%;
     margin-bottom: 60px;
     float: left;
-    /* background-color: rgb(226, 199, 230); */
 }
 
 .perfilImg {
@@ -92,7 +90,7 @@ span {
 /* First Section */
 
 .firstSection {
-    width: 50%;
+    width: 41%;
     height: auto;
     margin-bottom: 30px;
     float: left;
@@ -217,7 +215,7 @@ a:link, a:visited, a:active {
 
 .dividerLine4 {
     width: 1px;
-    height: 420px;
+    height: 475px;
     background-color: gray;
     box-sizing: border-box;
     float: left;
@@ -277,7 +275,7 @@ a:link, a:visited, a:active {
 /* Second Section */
 
 .secondSection {
-    width: 48%;
+    width: 50%;
     height: auto;
     margin-bottom: 30px;
     margin-left: 2%;
